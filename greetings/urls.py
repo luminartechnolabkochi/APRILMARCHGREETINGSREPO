@@ -29,5 +29,13 @@ urlpatterns = [
     path("morning/",views.GoodMOrningView.as_view()),
 
     path("sachin/",views.SachinView.as_view()),
+
+    path("selfintro/",views.SelfintroView.as_view()),
+
+    path("mobiles/all/",views.MobileListView.as_view()),
+
+    path("recepies/all/",views.RecepieListView.as_view()),
+
+
     
 ]
